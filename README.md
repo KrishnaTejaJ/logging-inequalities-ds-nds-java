@@ -11,7 +11,7 @@ In this work, we quantitively and qualitatively analyze Logging practices of Dat
 Data is acquired using GitHub API. Search query for DataScience : [Link](https://api.github.com/search/repositories?page=1&per_page=100&q=data+science+java+language:java), search query for Non-DataScience : [Link](https://api.github.com/search/repositories?page=1&per_page=100&q=java+projects+language:java).
 
 ## Input
-The input file contains the list of repos of data science and non-data science in csv format, it resides in `data/input` directory.
+The input file contains the list of repos of data science and non-data science in xlsx format, Repos.xlsx.
 
 ## Using Semgrep rules
 Logs were extracted from the repos using two semgrep rules.
